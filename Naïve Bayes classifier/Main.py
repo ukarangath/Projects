@@ -2,14 +2,14 @@
 The main file of execution
 How to run,
 Accepting one (1) command line argument, i.e. so code could be executed with
-python PA02\Main.py TRAIN_SIZE
+python Main.py TRAIN_SIZE
 where:
 TRAIN_SIZE is a number between 20 and 80 defining the size (in percentages) of 
 the training set. For example: 60 would mean FIRST (as ordered in the dataset file) 
 60% of samples. Note that your test set is always going to be the LAST (as ordered 
 in the dataset file) 20% of samples.
 Example:
-python Main.py.py YES
+python Main.py YES
 If the number of arguments provided is NOT one (none, two or more) or the TRAIN_SIZE 
 argument is out of the specified range, assume that the value for TRAIN_SIZE is 80.
 -------------------------------------'''
@@ -41,13 +41,13 @@ if len(sys.argv) == 2:
 # Clears off screen for clean display of results alone
 clearScreen()
 print("----------------------------------------------------------------------------------")
-print("Arangath, Unnikrishnan, A20348848 CS585 PA02 Solution:")
+print("Solution:")
 print("----------------------------------------------------------------------------------")
 print("Train size is first ",TRAIN_SIZE, "% of the data and TEST_SIZE is last 20% of the data", sep='')
 ''' ------------------------------------
 Reading downloaded "Popular Movies of IMDb" of Kaggle
 -------------------------------------'''  
-dforiginal = pd.read_csv('PA02\TMDb_updated.csv')
+dforiginal = pd.read_csv(' \TMDb_updated.csv')
 # By setting the random seed to a fixed value, you ensure that every time you run your code, 
 # you get the same sequence of random numbers. This is useful when you want to debug your code 
 # or share your results with others
@@ -93,7 +93,7 @@ columns_to_drop = [dfProcessed.columns[0], 'original_language', 'vote_count', 't
 dfProcessed = dfProcessed.drop(columns=columns_to_drop)
 
 # Save the cleaned DataFrame back to a CSV file
-dfProcessed.to_csv('PA02\TMDb_updated_1.csv', index=False)
+dfProcessed.to_csv(' \TMDb_updated_1.csv', index=False)
 
 print("Head of DataFrame before dropping the columns:")
 print(dfProcessed.head(3))
@@ -117,7 +117,7 @@ print("First 3 entries of the DataFrame post rounding off vote_average column:")
 print(dfProcessed.head(3))
 
 # Save the DataFrame back to a CSV file
-dfProcessed.to_csv('PA02\TMDb_updated_2.csv', index=False)
+dfProcessed.to_csv(' \TMDb_updated_2.csv', index=False)
 ''' ------------------------------------
 Exploration of vote_average/ result column
 -------------------------------------'''     
@@ -164,8 +164,8 @@ testingSet.reset_index(drop=True, inplace=True)
 
 # Saving above training and testing data frames as csv files
 # index=False is kept not to retain any old row numbers
-trainingSet.to_csv('PA02\TMDb_updated_2_trainingSet.csv', index=False) 
-testingSet.to_csv('PA02\TMDb_updated_2_testingSet.csv', index=False)  
+trainingSet.to_csv(' \TMDb_updated_2_trainingSet.csv', index=False) 
+testingSet.to_csv(' \TMDb_updated_2_testingSet.csv', index=False)  
 
 
 # Print the shapes of the training and test sets
