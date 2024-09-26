@@ -1,0 +1,30 @@
+Question3:
+-------------
+a. How many assignments are made solving 8-queens? 10-queens? 15-
+queens? 20-queens?
+-------------
+Ans : 
+8-queens - 218
+10-queens - 194
+15-queens - 2703
+20-queens - Gives out of memory error
+b. Can you solve 100-queens in a reasonable amount of time? If so, how
+many assignments are made?
+-------------
+Ans : 
+No.
+c. What is the largest problem you can solve in less than a minute? How
+many assignments are made?
+-------------
+Ans:
+N = 19
+Max possible with eclipse stack size of 512kb is N = 19,with assignments equal to 5071
+-----------------------------------------------------------------------
+Analysis : 
+AC3 can’t detect all contradictions among binary constraints.But still it does more 
+work than forward checking,specially AC3 with complete look ahead.Due to the same reason this algorithm takes 
+too much of time.
+Note : Here I have given total number of assignments during consistency check with another matrix.
+This may not be the real number of assignments as per the question.In a arc consistency check 
+with complete look ahead the final number of assignments is N.
+-----------------------------------------------------------------------

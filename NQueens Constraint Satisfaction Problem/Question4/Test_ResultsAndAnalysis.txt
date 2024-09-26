@@ -1,0 +1,26 @@
+Question4:
+-------------
+a. How does the time to solve 8, 10, 15, 20, 100 queens compare with the
+backtracking search?
+-------------
+Ans : 
+(MAX_STEPS : 100)
+8-queens - 17 ms
+10-queens - 3ms - no solution found in 100 runs
+15-queens - 7ms
+20-queens - 12ms
+100-queens - 90ms
+b. What is the largest problem you can solve in less than a minute? How
+many assignments are made?
+-------------
+Ans:Solution depends on luck.
+5000 queens.
+Took 62845 ms
+Total number of assignments for - 5000-queen problem is : 100
+-----------------------------------------------------------------------
+Analysis : 
+Backtracking algorithm is better in time perspective.
+But at back tracking method,solution is guaranteed but here it 
+depends on luck.Only benefit at min-conflicts local search is,any number of queens problem we can solve in a 
+reasonable time if lucky.
+-----------------------------------------------------------------------
