@@ -2,9 +2,8 @@
 #pragma once
 /*
 	Link State Routing Simulator
-	This is a C++ header file
+	C++ header
 	Author : Unnikrishnan
-	IDE: Visual studio community 2019
 */
 
 //MACROS
