@@ -1,8 +1,7 @@
 /*
 	Link State Routing Simulator
-	This is a main file(Visual studio 2019)
+ 	Main file
 	Author : Unnikrishnan
-	IDE: Visual studio community 2019
 */
 
 /*This block of code must be before including header files and here
@@ -29,7 +28,7 @@ using namespace std;
 ************************************************************************************************************/
 int main()
 {
-	/*//FOR TESTING - Generate a topology matrix of higher size
+	//FOR TESTING - Generate a topology matrix of higher size
 	FILE* file = fopen("nt_5.txt", "w+");
 	
 	if (file != NULL)
