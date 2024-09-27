@@ -1,8 +1,7 @@
 /*
 	Link State Routing Simulator
-	This is a C++ source file which contains all function definisions
+	This is a C++ source file of all functions
 	Author : Unnikrishnan
-	IDE: Visual studio community 2019
 */
 
 /*This block of code must be before including header files and here
