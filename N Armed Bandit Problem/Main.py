@@ -84,7 +84,7 @@ else:
 # Clears off screen for clean display of results alone
 clearScreen()
 print("----------------------------------------------------------------------------------")
-print("Arangath, Unnikrishnan, A20348848 CS585 PA02 Solution:")
+print("Solution:")
 print("----------------------------------------------------------------------------------")
 # For debugging purposes
 np.random.seed(0) 
