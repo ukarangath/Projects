@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------							
-Question1 : Located in folder Question1.
+1 : Located in folder 1.
 Given Python code for solving N-queens using simple backtracking is modified to java as 
 I am comfortable to code in java than python.
 
@@ -10,7 +10,7 @@ back tracking.Counting the number of assignments is incorporated with back track
 
 Test_ResultsAndAnalysis.txt - Gives the test results and the analysis.
 -----------------------------------------------------------------------------------------------	
-Question2 : Located in folder Question2.
+2 : Located in folder 2.
 
 Source files : 
 NQueensLCV.java - which is the main file.Program is well documented and have debug prints
@@ -22,7 +22,7 @@ it is assigned in an order of 2,3,1,4,0.
 
 Test_ResultsAndAnalysis.txt - Gives the test results and the analysis.
 -----------------------------------------------------------------------------------------------	
-Question3 : Located in folder Question3.
+3 : Located in folder 3.
 
 Source files : 
 NQueensAC.java - which is the main file.Program is well documented and have debug prints
@@ -36,7 +36,7 @@ with complete look ahead the final number of assignments is N.
 
 Test_ResultsAndAnalysis.txt - Gives the test results and the analysis.
 -----------------------------------------------------------------------------------------------	
-Question4 : Located in folder Question4.
+4 : Located in folder 4.
 
 Source files : 
 MatrixLocation.java - This is a custom data type class corresponds to a location in a matrix which 
