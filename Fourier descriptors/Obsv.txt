@@ -1,2 +1,2 @@
-Using 50% of boundary we could reconstruct the boundary by retaining it's principal features.
+Using 50% of boundary we could reconstruct real boundary by retaining it's principal features.
 Even when we used 1% then also the output image is somewhat closer to original one but major distortion is observed.
