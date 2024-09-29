@@ -29,7 +29,7 @@ using namespace std;
 int main()
 {
 	//FOR TESTING - Generate a topology matrix of higher size
-	FILE* file = fopen("nt_5.txt", "w+");
+	FILE* file = fopen("nt1.txt", "w+");
 	
 	if (file != NULL)
 	{
