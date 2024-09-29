@@ -1,1 +1,1 @@
-Projects completed independently
+Independent works
