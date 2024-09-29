@@ -29,6 +29,7 @@ using namespace std;
 int main()
 {
 	//FOR TESTING - Generate a topology matrix of higher size
+	// Select either nt1.txt or nt2.txt from the main folder as input network topology files
 	FILE* file = fopen("nt1.txt", "w+");
 	
 	if (file != NULL)
