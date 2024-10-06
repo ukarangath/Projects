@@ -1,1 +1,1 @@
-Independent works
+Independent Works
